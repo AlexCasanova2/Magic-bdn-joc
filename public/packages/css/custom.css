@@ -1,0 +1,25 @@
+.live img{
+	
+	width:100%;
+	position: absolute;	
+   -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.live img.transparent {
+	opacity:0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #35b4c9 !important;
+    border-color: #35b4c9 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0b788a !important;
+    border-color: #0b788as !important;
+}

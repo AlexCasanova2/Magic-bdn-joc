@@ -1,0 +1,336 @@
+@font-face {
+	font-family: 'Renault Life';
+	src: url('/packages/fonts/renault/packages/fonts/renault/RenaultLife-Light.eot');
+	src: url('/packages/fonts/renault/RenaultLife-Light.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/renault/RenaultLife-Light.woff') format('woff'), url('/packages/fonts/renault/RenaultLife-Light.ttf') format('truetype'), url('/packages/fonts/renault/RenaultLife-Light.svg#RenaultLife-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Renault Life';
+	src: url('/packages/fonts/renault/RenaultLife-LightItalic.eot');
+	src: url('/packages/fonts/renault/RenaultLife-LightItalic.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/renault/RenaultLife-LightItalic.woff') format('woff'), url('/packages/fonts/renault/RenaultLife-LightItalic.ttf') format('truetype'), url('/packages/fonts/renault/RenaultLife-LightItalic.svg#RenaultLife-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Renault Life';
+	src: url('/packages/fonts/renault/RenaultLife.eot');
+	src: url('/packages/fonts/renault/RenaultLife.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/renault/RenaultLife.woff') format('woff'), url('/packages/fonts/renault/RenaultLife.ttf') format('truetype'), url('/packages/fonts/renault/RenaultLife.svg#RenaultLife') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Renault Life';
+	src: url('/packages/fonts/renault/RenaultLife-Italic.eot');
+	src: url('/packages/fonts/renault/RenaultLife-Italic.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/renault/RenaultLife-Italic.woff') format('woff'), url('/packages/fonts/renault/RenaultLife-Italic.ttf') format('truetype'), url('/packages/fonts/renault/RenaultLife-Italic.svg#RenaultLife-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Renault Life';
+	src: url('/packages/fonts/renault/RenaultLife-Bold.eot');
+	src: url('/packages/fonts/renault/RenaultLife-Bold.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/renault/RenaultLife-Bold.woff') format('woff'), url('/packages/fonts/renault/RenaultLife-Bold.ttf') format('truetype'), url('/packages/fonts/renault/RenaultLife-Bold.svg#RenaultLife-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Renault Life';
+	src: url('/packages/fonts/renault/RenaultLife-BoldItalic.eot');
+	src: url('/packages/fonts/renault/RenaultLife-BoldItalic.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/renault/RenaultLife-BoldItalic.woff') format('woff'), url('/packages/fonts/renault/RenaultLife-BoldItalic.ttf') format('truetype'), url('/packages/fonts/renault/RenaultLife-BoldItalic.svg#RenaultLife-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 18/02/2020 12:03
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon/Flaticon.eot");
+  src: url("../fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/Flaticon.woff2") format("woff2"),
+       url("../fonts/flaticon/Flaticon.woff") format("woff"),
+       url("../fonts/flaticon/Flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+ 	display: inline-block;
+    width: 77px;
+    height: 80px;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.icon-100 {
+  background-image: url('../images/Grupo_100_y.svg');
+}
+.icon-98{
+  background-image: url('../images/Grupo_98_y.svg');
+}
+.icon-99{
+  background-image: url('../images/Grupo_99_y.svg');
+}
+
+.box-button:hover .icon-100, .box-button.selected .icon-100 {
+  background-image: url('../images/Grupo_100.svg');
+}
+.box-button:hover .icon-98, .box-button.selected .icon-98 {
+  background-image: url('../images/Grupo_98.svg');
+}
+.box-button:hover .icon-99, .box-button.selected .icon-99 {
+  background-image: url('../images/Grupo_99.svg');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 94px;
+font-style: normal;
+}
+
+.flaticon-diesel{
+    padding-left: 25px;
+}
+.flaticon-magicbdnlogo{
+	margin-top:30px;
+}
+.flaticon-magicbdnlogo:before, .flaticon-magicbdnlogo:after{
+    font-size: 63px !important;
+    float: left;
+}
+
+
+.flaticon-megafono:before { content: "\f100"; }
+.flaticon-sitio-web:before { content: "\f101"; }
+.flaticon-television:before { content: "\f102"; }
+.flaticon-menu:before { content: "\f103"; }
+.flaticon-diesel:before { content: "\f104"; }
+.flaticon-gasolina:before { content: "\f105"; }
+.flaticon-coche:before { content: "\f106"; }
+.flaticon-conexion-inalambrica:before { content: "\f107"; }
+.flaticon-coche-1:before { content: "\f108"; }
+.flaticon-bosquejo:before { content: "\f109"; }
+.flaticon-creatividad:before { content: "\f10a"; }
+.flaticon-motor:before { content: "\f10b"; }
+.flaticon-volante:before { content: "\f10c"; }
+.flaticon-ano-nuevo:before { content: "\f10d"; }
+.flaticon-error:before { content: "\f10e"; }
+.flaticon-magicbdnlogo:before { content: "\f10f"; }
+
+body {
+	font-family: 'Renault Life';
+	background-image: url(../images/s.png),  url(../images/firmaconjuntaTUSGSAL+direxis_color_2021_vertical.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 190px, 190px;
+    background-position: left bottom, 1620px 820px;
+}
+
+a:hover, a{
+	text-decoration: none !important;
+	color:#333333;
+}
+
+.title-final{
+    font-size: 3em;
+    color: #000;
+    margin-bottom: 80px;
+    font-weight: 200;
+}
+.swal2-styled.swal2-confirm, .swal2-styled.swal2-cancel{
+	font-family: 'Renault Life' !important;
+	color:#000000 !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+	font-size: 2em !important;
+	margin-bottom: 100px;
+}
+
+.swallrow{
+	padding: 100px 100px 10px 100px  !Important;
+}
+
+.btn {
+	font-family: 'Renault Life';
+}
+
+..swal2-popup{
+	    max-width: 68% !important;
+}
+
+.quest, .form {
+	min-height: 1080px;
+}
+
+.quest h2, .form h2 {
+	margin-top: 200px;
+}
+
+.signature-pad {
+	background-color: #e0e0e0 !important;
+}
+.login100-form-btn {
+
+	background-color: rgb(53, 180, 200);
+	box-shadow: 0 10px 30px 0px rgba(53, 180, 200, 0.5);
+	-moz-box-shadow: 0 10px 30px 0px rgba(53, 180, 200, 0.5);
+	-webkit-box-shadow: 0 10px 30px 0px rgba(53, 180, 200, 0.5);
+	-o-box-shadow: 0 10px 30px 0px rgba(53, 180, 200, 0.5);
+	-ms-box-shadow: 0 10px 30px 0px rgba(53, 180, 200, 0.5);
+}
+.m-t-85 {
+	margin-top: 35px !important;
+}
+
+.signature-pad {
+
+	width: 100%;
+	height: 343px;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.container-login100 {
+	min-height: auto !important;
+}
+select {
+	font-family: 'Renault Life';
+	font-size: 18px;
+	color: #999999 !important;
+}
+
+.focus-input2::before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0s;
+	background: none;
+}
+.btn-renault {
+	background-color: #FFCE33;
+	padding: 8px 20px 8px 20px;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0px;
+}
+
+.focus-input2::after {
+	font-family: 'Renault Life';
+	font-size: 18px;
+	line-height: 3.2;
+	content: attr(data-placeholder);
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-left: 5px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.box-button {
+	min-height: 250px;
+	box-shadow: 0px 2px 6px 1px #cecece;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+	background: #fff;
+	color:#FFCE33
+}
+
+.box-button small {
+	bottom: 20px;
+	width: 100%;
+	left: 0;
+	color:#000;
+}
+
+.question-1 .col-md-2{
+	margin-right: 38px;
+}
+.question-2 .col-md-2{
+	margin-right: 25px;
+}
+
+.question-4 .col-md-2{
+	margin-right: 38px;
+}
+
+
+
+.box-button.selected{
+	background: #FFCE33 !important;
+	color:#000;
+}
+
+.box-button.error{
+	background: rgb(236 118 101) !important;
+	color:#fff;
+}
+
+.box-button.ok{
+	background:rgb(91 214 95) !important;
+	color:#fff;
+}
+
+.box-button.ok small, .box-button.error small{
+	color:#fff;
+}
+
+.quest img{
+	margin-bottom: 150px;
+}
+.position-fixed {
+	position: relative;
+	bottom: 200px;
+	right: 500px;
+}
+
+form a {
+    color: #767676;
+   	font-size: 1.1em;
+}
+
+@page {
+	size: A5
+}
+@media print {
+	.no-print, .no-print * {
+		display: none !important;
+	}
+	body {
+		width: 100% !important;
+		padding: 50px !important;
+	}
+	.logo-top {
+		text-align: left !important;
+	}
+}
